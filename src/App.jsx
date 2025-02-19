@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 
 function App() {
-
+  // array header
   const linksHeader = [
     { id: 1, text: "CHARACTERS", url: "#", current: false },
     { id: 2, text: "COMICS", url: "#", current: true },
@@ -20,7 +20,7 @@ function App() {
     { id: 9, text: "NEWS", url: "#", current: false },
     { id: 10, text: "SHOP", url: "#", current: false }
   ];
-
+  // array footer
   const linksEntries1 = [
     { id: 1, text: 'Characters', url: '#', current: false },
     { id: 2, text: 'Characters', url: '#', current: false },
