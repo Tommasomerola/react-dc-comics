@@ -1,5 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70% ;
+  margin: auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  margin: auto 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
 a {
   text-decoration: none;
   font-size: 13px;
+}
+
+/* regole main */
+
+main {
+  background-color: black;
+}
+
+.content-main {
+  color: #fff;
+  font-size: 30px;
+  height: 70px;
+  padding: 20px;
+}
+
+/* regole footer */
+
+.up-container {
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.up-container .container {
+  display: flex;
+  position: relative;
+}
+
+.sub-container-left {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.up-container ul {
+  list-style: none;
+  color: gray;
+}
+
+.up-container li:first-child {
+  color: #fff;
+  font-size: 20px;
+}
+.sub-container-right {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
